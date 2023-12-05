@@ -18,7 +18,7 @@ import java.util.List;
 @Table(name = "department")
 public class Department {
     @Id
-//    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long department_Id;
     private String department_Name;
 
